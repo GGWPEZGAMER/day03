@@ -52,7 +52,7 @@ docker build -t todoapp-docker .
 docker images
 ```
 ------------------------------------------------------------------------------------------------------------------------------------  
--Create a public repository on hub.docker.com and push the image to remote repo  
+- Create a public repository on hub.docker.com and push the image to remote repo  
 ```bash
 docker login
 docker tag day02-todo:latest username/new-reponame:tagname
